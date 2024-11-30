@@ -1,12 +1,13 @@
-<?php
+<?php declare( strict_types = 1 );
 // *************************** NIVEL 1 ***************************
 //EJERCICIO 3
+
 
 $palabras = array('hola', 'arbol', 'rama');
 
 $caracter = readline("Que caracter quieres introducir: ")[0];
 
-function comprobarLetra($palabras, $caracter){
+function comprobarLetra(array $palabras, string $caracter): bool{
 
 foreach($palabras as $palabra){
     if (stripos($palabra,$caracter)===false){

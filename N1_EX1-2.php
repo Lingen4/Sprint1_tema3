@@ -1,7 +1,7 @@
-<?php
+<?php declare( strict_types = 1 );
+
 // *************************** NIVEL 1 ***************************
 //EJERCICIO 1 Y 2
-
 
 $primerArray = array (10,20,30,40,50);
 

@@ -1,9 +1,10 @@
-<?php
+<?php declare( strict_types = 1 );
+
 // *************************** NIVEL 2 ***************************
 //EJERCICIO 1
 $arrayEnteros=array(10,20,35,40,50);
 
-$arrayFloat=array(10.2,20.0,35.35,40.0, 50.7777);
+$arrayFloat= array(10.2,20.0,35.35,40.0, 50.7777);
 
 $lista= array_intersect($arrayEnteros,$arrayFloat);
 echo "Intersect: \n";

@@ -1,4 +1,5 @@
-<?php
+<?php declare( strict_types = 1 );
+
 // *************************** NIVEL 2 ***************************
 //EJERCICIO 2
 
@@ -8,23 +9,22 @@ $alumnos = [
     "Miguel" => [4, 7, 6, 5, 10]
 ];
 
-/* SI QUEREMOS AGREGAR UN ALUMNO MANUALMENTE
-
-function agregarAlumno (&$alumnos){
+ //FUNCION SI QUEREMOS AGREGAR UN ALUMNO+NOTAS
+/*
+function agregarAlumno (array &$alumnos): void{
 
 $nombreNuevo=readline("Nombre del alumno: ");
 
 $notasAlumno = [];
 for ((int) $i=1; $i<=5; $i++){
 $nota= (int) readline("Escriba la $i º nota--> ");
-array_push($notasAlumno,$nota);
+array_push((array) $notasAlumno, (int) $nota);
 }
 
 $alumnos[$nombreNuevo]=$notasAlumno;}
-
 */
 
-function promedio($alumnos){
+function promedio(array $alumnos): void{
 
     $notaClase=0;
 
