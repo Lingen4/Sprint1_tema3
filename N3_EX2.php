@@ -1,6 +1,6 @@
 <?php declare( strict_types = 1 );
 
-// *************************** NIVEL 3 ***************************
+// *************************** NIVEL 3 ***************************/
 //EJERCICIO 2
 
 $arrayString = ['hoja', 'php', 'mesa', 'arbitrario', 'nucleos'];

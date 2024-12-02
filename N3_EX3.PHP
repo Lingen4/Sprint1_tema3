@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-// *************************** NIVEL 3 ***************************
+// *************************** NIVEL 3 ***************************/
 //EJERCICIO 3
 
 
 $arrayEnteros = [0, 1, 2, 3, 4, 1, 0, 5, 6, 7, 11, 13, 15, 16, 18, 19, 23, 1, 0];
 
 
-function cribaPrimos($arrayEnteros)
+function cribaPrimos($arrayEnteros):array
 {
     $indice = 0;
 
